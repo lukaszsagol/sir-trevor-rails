@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "guard-minitest"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "pry-rails"
+  spec.add_development_dependency "wrong"
 
   spec.add_dependency "rails"
   spec.add_dependency "redcarpet", "~> 2.0.1"
