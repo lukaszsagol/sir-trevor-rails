@@ -1,3 +1,4 @@
+require 'multi_json'
 require 'rails/engine'
 require 'action_view'
 require 'action_view/template/resolver'

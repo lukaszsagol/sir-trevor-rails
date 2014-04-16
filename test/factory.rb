@@ -14,6 +14,21 @@ class Factory
       }
     end
 
+    def image_block(attrs = {})
+      {
+        type: 'image',
+        data: {
+          file: {
+            original: {
+              url: attrs[:url] || 'http://example.com',
+              width: attrs[:width] || 640,
+              height: attrs[:height] || 480
+            }
+          }
+        }
+      }
+    end
+
     def array(attrs = {})
       blocks = []
       if attrs[:block_types]
